@@ -7,10 +7,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/msalvatti/arbitrum-graphql-api.git"
   },
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/msalvatti/arbitrum-graphql-api.git"
   },
   "homepage": "",
   "main": "",
