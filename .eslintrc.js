@@ -32,6 +32,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'import', 'prettier'],
   rules: {
+    '@typescript-eslint/no-var-requires': 'off',
     'prettier/prettier': [
       'warn',
       {

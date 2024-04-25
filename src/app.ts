@@ -12,13 +12,8 @@ app.use(helmet())
 app.use(express.json())
 
 if (process.env.NODE_ENV !== 'production') {
-  import('morgan')
-    .then((morgan) => {
-      app.use(morgan.default('dev'))
-    })
-    .catch((error) => {
-      console.error('Error importing morgan:', error)
-    })
+  const morgan = require('morgan')
+  app.use(morgan('dev'))
 }
 
 app.use(cors())
